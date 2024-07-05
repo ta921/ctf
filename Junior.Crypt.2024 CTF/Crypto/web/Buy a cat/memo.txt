@@ -1,0 +1,16 @@
+ラップトップ
+https://ctf.mf.grsu.by/tasks/006a5dd1315a77da9f9f7f0ad78d7e29/?crypt_key1=d719b8adfc6e3841ffc856d52abc5fb9&chosen=Notebook&crypt_key2=d719b8adfc6e3841ffc856d52abc5fb9
+
+マイク
+https://ctf.mf.grsu.by/tasks/006a5dd1315a77da9f9f7f0ad78d7e29/?crypt_key1=d719b8adfc6e3841ffc856d52abc5fb9&chosen=T_shirt&crypt_key2=d719b8adfc6e3841ffc856d52abc5fb9
+
+スケート
+https://ctf.mf.grsu.by/tasks/006a5dd1315a77da9f9f7f0ad78d7e29/?crypt_key1=d719b8adfc6e3841ffc856d52abc5fb9&chosen=Skate&crypt_key2=d719b8adfc6e3841ffc856d52abc5fb9
+
+スニーカー
+https://ctf.mf.grsu.by/tasks/006a5dd1315a77da9f9f7f0ad78d7e29/?crypt_key1=d719b8adfc6e3841ffc856d52abc5fb9&chosen=Sneakers&crypt_key2=d719b8adfc6e3841ffc856d52abc5fb9
+
+https://ctf.mf.grsu.by/tasks/006a5dd1315a77da9f9f7f0ad78d7e29/?crypt_key1=d719b8adfc6e3841ffc856d52abc5fb9&chosen=cat&crypt_key2=d719b8adfc6e3841ffc856d52abc5fb9
+だめ
+
+getメソッドをインタラプトしてクエリをcatに書き換えたらいけた
