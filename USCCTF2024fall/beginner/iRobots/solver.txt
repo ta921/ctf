@@ -1,0 +1,3 @@
+https://usc-irobots.chals.io/hidden/flag.txt
+
+CYBORG{robots_txt_is_fun}
